@@ -18,6 +18,18 @@ A data pipeline and Power BI dashboard tracking SEC 13F institutional holdings a
 - **Page 2:** Congressional trades — House & Senate activity, buy/sell breakdown, most traded stocks
 - **Page 3:** Cross-analysis — Congressional trades vs institutional holdings overlap, institutional momentum
 
+## Dashboard Preview
+
+### Page 1 — Institutional Holdings
+![Page 1](IMG_1304.jpeg)
+
+### Page 2 — Congressional Trades
+![Page 2](IMG_1305.jpeg)
+
+### Page 3 — Cross Analysis
+![Page 3](IMG_1306.jpeg)
+
+
 ## Architecture
 
 SEC EDGAR / Quiver API → Cloud Run (Python) → BigQuery → Power BI
